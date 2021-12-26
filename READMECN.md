@@ -11,4 +11,4 @@ jSQL 注入也是官方渗透测试发行版 [Kali Linux](http://www.kali.org/) 
 
 
 # 安装
-`pkg i wget -y && wget https://raw.fastgit.org/UtermuxBlog/Termux-jsql/main/termux-jsql.sh && chmod 777 termux-jsql.sh && ./termux-jsql.sh`
+`pkg i wget -y && wget https://raw.fastgit.org/UtermuxBlog/Termux-jsql/main/termux-jsqlCN.sh && chmod 777 termux-jsqlCN.sh && ./termux-jsqlCN.sh`
