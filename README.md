@@ -11,4 +11,4 @@ jSQL Injection is also part of the official penetration testing distribution [Ka
 
 
 # installation
-`pkg i wget -y && wget https://raw.githubusercontent.com/UtermuxBlog/Termux-jsql/main/termux-jsql.sh && chmod 777 termux-jsql.sh && ./termux-jsql.sh`
+`pkg i wget -y && wget https://github.com/UtermuxBlog/Termux-jsql/raw/main/README.md && chmod 777 termux-jsql.sh && ./termux-jsql.sh`
