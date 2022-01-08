@@ -7,5 +7,4 @@ echo 设置DISPLAY变量和启动VNC服务器...
 export DISPLAY=:1
 vncserver :1
 echo 启动JSQL-INJECTION...
-java -jar jsql-injection-v0.85.jar
-echo 打开VNC Viewer，IP：   :1
+java -jar jsql-injection-v0.85.jar | echo 打开VNC Viewer，IP：   :1
