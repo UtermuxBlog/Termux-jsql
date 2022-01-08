@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 echo Installing Java and VNCServer
-pkg up && pkg i x11-repo && pkg i tigervnc && pkg i openjdk-17
+pkg up -y && pkg i x11-repo -y && pkg i tigervnc -y && pkg i openjdk-17 -y
 echo Downloading jsql-injection Form GitHub
 wget https://github.com/ron190/jsql-injection/releases/download/v0.85/jsql-injection-v0.85.jar
 echo Setting DISPLAY value and Starting VNCServer
