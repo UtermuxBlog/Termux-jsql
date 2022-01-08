@@ -7,5 +7,4 @@ echo Setting DISPLAY value and Starting VNCServer
 export DISPLAY=:1
 vncserver :1
 echo Starting jsql-injection
-java -jar jsql-injection-v0.85.jar
-echo You can now connect to VNCServer with this IP address: :1
+java -jar jsql-injection-v0.85.jar | echo You can now connect to VNCServer now with this IP address: :1
